@@ -1,0 +1,15 @@
+
+t=int(input())
+for i in range(t):
+    op=""
+    n,m=map(int,input().split())
+    arr=list(map(int,input().split()))
+    for j in arr:
+        if j<=m:
+            op+="1"
+            m=m-j
+        else :
+            op+="0"
+    print(op)
+        
+            
